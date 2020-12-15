@@ -1,0 +1,16 @@
+RewriteEngine On
+#Não exibe as pastas internas
+Options All -Indexes
+
+# ROUTER WWW Redirect. - Garante acesso único ao url/ sem duplicidade de conteúdo
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ROUTER HTTPS Redirect - Redireciona sempre para acesso com SSL
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ROUTER URL Rewrite
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d

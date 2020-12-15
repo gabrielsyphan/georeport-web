@@ -1,0 +1,434 @@
+[
+    {
+        "name": "coffeecode/datalayer",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robsonvleite/datalayer.git",
+            "reference": "17fecff8edb8fb5287648875f182acbb80389614"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/17fecff8edb8fb5287648875f182acbb80389614",
+            "reference": "17fecff8edb8fb5287648875f182acbb80389614",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": "^7.2"
+        },
+        "time": "2019-10-29T13:34:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CoffeeCode\\DataLayer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robson V. Leite",
+                "email": "cursos@upinside.com.br",
+                "role": "Developer"
+            }
+        ],
+        "description": "The data layer is a persistent abstraction component of your database that PDO",
+        "homepage": "http://www.upinside.com.br",
+        "keywords": [
+            "Coffeecode",
+            "crud",
+            "database",
+            "delete",
+            "destroy",
+            "pdo",
+            "save",
+            "upinside"
+        ]
+    },
+    {
+        "name": "coffeecode/router",
+        "version": "1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robsonvleite/router.git",
+            "reference": "e3b94f72bc389e8b97d82a0fd0e5bff743e51667"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robsonvleite/router/zipball/e3b94f72bc389e8b97d82a0fd0e5bff743e51667",
+            "reference": "e3b94f72bc389e8b97d82a0fd0e5bff743e51667",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2019-09-30T16:29:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CoffeeCode\\Router\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robson V. Leite",
+                "email": "cursos@upinside.com.br",
+                "role": "Developer"
+            }
+        ],
+        "description": "A classic CoffeeCode Router is easy, fast and extremely uncomplicated. Create and manage your routes in minutes!",
+        "homepage": "http://www.upinside.com.br",
+        "keywords": [
+            "Coffeecode",
+            "route",
+            "router",
+            "routes",
+            "upinside"
+        ]
+    },
+    {
+        "name": "dompdf/dompdf",
+        "version": "v0.8.5",
+        "version_normalized": "0.8.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dompdf/dompdf.git",
+            "reference": "6782abfc090b132134cd6cea0ec6d76f0fce2c56"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dompdf/dompdf/zipball/6782abfc090b132134cd6cea0ec6d76f0fce2c56",
+            "reference": "6782abfc090b132134cd6cea0ec6d76f0fce2c56",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-mbstring": "*",
+            "phenx/php-font-lib": "^0.5.1",
+            "phenx/php-svg-lib": "^0.3.3",
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.5",
+            "squizlabs/php_codesniffer": "^3.5"
+        },
+        "suggest": {
+            "ext-gd": "Needed to process images",
+            "ext-gmagick": "Improves image processing performance",
+            "ext-imagick": "Improves image processing performance"
+        },
+        "time": "2020-02-20T03:52:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "0.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dompdf\\": "src/"
+            },
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Ménager",
+                "email": "fabien.menager@gmail.com"
+            },
+            {
+                "name": "Brian Sweeney",
+                "email": "eclecticgeek@gmail.com"
+            },
+            {
+                "name": "Gabriel Bull",
+                "email": "me@gabrielbull.com"
+            }
+        ],
+        "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+        "homepage": "https://github.com/dompdf/dompdf"
+    },
+    {
+        "name": "league/plates",
+        "version": "v4.0.0-alpha",
+        "version_normalized": "4.0.0.0-alpha",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/plates.git",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/plates/zipball/f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "eloquent/phony-peridot": "^2.0",
+            "peridot-php/leo": "^1.6",
+            "peridot-php/peridot": "^1.19",
+            "peridot-php/peridot-code-coverage-reporters": "^3.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "time": "2018-01-31T07:20:23+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Plates\\": "src"
+            },
+            "files": [
+                "src/Template/match.php",
+                "src/Extension/Data/data.php",
+                "src/Extension/Path/path.php",
+                "src/Extension/RenderContext/func.php",
+                "src/Extension/RenderContext/render-context.php",
+                "src/Extension/LayoutSections/layout-sections.php",
+                "src/Extension/Folders/folders.php",
+                "src/Util/util.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Reinink",
+                "email": "jonathan@reinink.ca",
+                "role": "Developer"
+            },
+            {
+                "name": "RJ Garcia",
+                "email": "rj@bighead.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+        "homepage": "http://platesphp.com",
+        "keywords": [
+            "league",
+            "package",
+            "templates",
+            "templating",
+            "views"
+        ]
+    },
+    {
+        "name": "phenx/php-font-lib",
+        "version": "0.5.2",
+        "version_normalized": "0.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PhenX/php-font-lib.git",
+            "reference": "ca6ad461f032145fff5971b5985e5af9e7fa88d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/ca6ad461f032145fff5971b5985e5af9e7fa88d8",
+            "reference": "ca6ad461f032145fff5971b5985e5af9e7fa88d8",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5 || ^6 || ^7"
+        },
+        "time": "2020-03-08T15:31:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FontLib\\": "src/FontLib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Ménager",
+                "email": "fabien.menager@gmail.com"
+            }
+        ],
+        "description": "A library to read, parse, export and make subsets of different types of font files.",
+        "homepage": "https://github.com/PhenX/php-font-lib"
+    },
+    {
+        "name": "phenx/php-svg-lib",
+        "version": "v0.3.3",
+        "version_normalized": "0.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PhenX/php-svg-lib.git",
+            "reference": "5fa61b65e612ce1ae15f69b3d223cb14ecc60e32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PhenX/php-svg-lib/zipball/5fa61b65e612ce1ae15f69b3d223cb14ecc60e32",
+            "reference": "5fa61b65e612ce1ae15f69b3d223cb14ecc60e32",
+            "shasum": ""
+        },
+        "require": {
+            "sabberworm/php-css-parser": "^8.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.5|^6.5"
+        },
+        "time": "2019-09-11T20:02:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Svg\\": "src/Svg"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Ménager",
+                "email": "fabien.menager@gmail.com"
+            }
+        ],
+        "description": "A library to read, parse and export to PDF SVG files.",
+        "homepage": "https://github.com/PhenX/php-svg-lib"
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.1.5",
+        "version_normalized": "6.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "a8bf068f64a580302026e484ee29511f661b2ad3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a8bf068f64a580302026e484ee29511f661b2ad3",
+            "reference": "a8bf068f64a580302026e484ee29511f661b2ad3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "^1.2",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpunit/phpunit": "^4.8 || ^5.7"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2020-03-14T14:23:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "sabberworm/php-css-parser",
+        "version": "8.3.0",
+        "version_normalized": "8.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+            "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+            "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "codacy/coverage": "^1.4",
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2019-02-22T07:42:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sabberworm\\CSS": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Raphael Schweikert"
+            }
+        ],
+        "description": "Parser for CSS Files written in PHP",
+        "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+        "keywords": [
+            "css",
+            "parser",
+            "stylesheet"
+        ]
+    }
+]
